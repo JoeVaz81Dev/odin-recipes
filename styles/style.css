@@ -1,6 +1,7 @@
 /* Box Model Hack */
 * {
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Clear fix hack */
@@ -22,6 +23,7 @@
 /*******************************************/
 
 body {
+    background: tan;
 
 }
 
@@ -29,11 +31,48 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
+header{
+    font-size: 20px;
+    font-weight: 200;
+    
+}
+.mainPage{
+    text-align: center;
+}
+.indexMain img{
+    height: auto;
+    width: 25%;
+    
+}
+.mainImg{
+    text-align: center;
+}
+.indexSection{
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+}
+.indexSection ul{
+    list-style: none;
+    width: 100%;
+    display: table;
+    text-align: center;
+    font-size: 16px;
+}
+.indexSection ul li{
+    display: inline-block;
+    float: none;
+    width: 10%;
 
 }
+a{
+    text-decoration: none;
+    
+  
+    
+}
 
-footer {
+footer{
 
 }
 
